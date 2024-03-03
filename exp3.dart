@@ -27,7 +27,7 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  String name = "Prakhar Sharma";
+  String name = "Vijay Gupta";
   String email = "...";
   String phone = "XXXXXXXX89";
   String address = "...";
@@ -164,14 +164,14 @@ class _ProfilePageState extends State<ProfilePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(()  {
-            name = "Prakhar Sharma";
+            name = "Vijsy Gupta";
             if (email == "...") {
-              email = "prakhar29sharma@gmail.com";
+              email = "vijaygupta0804@gmail.com";
             } else {
               email = "...";
             }
             if (phone == "XXXXXXXX89") {
-              phone = "9123456789";
+              phone = "12346789";
             } else {
               phone = "XXXXXXXX89";
             }
